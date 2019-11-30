@@ -6,7 +6,7 @@ cache:
     - "$HOME/.m2"
 
 before_cache:
-  - rm -rf $HOME/.m2/repository/com/autentia/traviscodacy
+   -rf $HOME/.m2/repository/com/autentia/traviscodacy
 
 before_install:
   - sudo apt-get install jq
